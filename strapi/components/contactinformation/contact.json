@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_contactinformation_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "phonenumber": {
+      "type": "biginteger"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

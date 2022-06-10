@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_footer_adresses",
+  "info": {
+    "name": "adress",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "country": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "string"
+    }
+  }
+}

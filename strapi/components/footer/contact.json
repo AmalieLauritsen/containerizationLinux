@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "phone-volume"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "phonenumber": {
+      "type": "biginteger"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

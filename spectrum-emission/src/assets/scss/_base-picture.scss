@@ -1,0 +1,17 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.hero-picture {
+  height: 60vh;
+  align-self: center;
+}
+
+.big-phone {
+  width: 85vw;
+  border-radius: 3px;
+}
+
+.smaller-hero {
+  width: 100%;
+  align-self: center;
+}

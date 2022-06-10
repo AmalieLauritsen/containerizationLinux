@@ -1,0 +1,129 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.single-product-wrapper {
+  margin: 0 10%;
+  padding-bottom: 20px;
+  .base-breadcrumbs {
+    margin: 0;
+    margin-top: 100px;
+  }
+
+  .products-block {
+    display: grid;
+    justify-items: center;
+    color: $primary-font-color;
+    text-align: left;
+
+    .base-h2 {
+      justify-self: baseline;
+      padding-left: 0;
+    }
+
+    .product-item {
+      width: 100%;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 5px 5px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.318);
+      color: $text-font-color;
+      .img-product {
+        width: 90%;
+      }
+
+      .description-wrapper {
+        background-color: $footor-background-color;
+        color: $primary-font-color;
+        width: 100%;
+        font-size: 1.2rem;
+        p {
+          padding: 10px;
+          margin: 0;
+        }
+      }
+    }
+
+    .price-button-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 100px;
+      width: 100%;
+      padding-top: 10px;
+
+      p {
+        grid-column: 1/2;
+        grid-row: 1/-1;
+        font-size: 1.5rem;
+        color: $secondary-font-color;
+        font-weight: bold;
+        padding: 5px 0;
+      }
+
+      .button-wrapper {
+        margin-bottom: 20px;
+        grid-column: 2/3;
+        grid-row: 1/ -1;
+        display: grid;
+        .base-button-yellow {
+          box-sizing: border-box;
+        }
+      }
+    }
+
+    .details {
+      width: 100%;
+      text-align: left;
+      .base-h3 {
+        text-align: left;
+        font-size: 1.3rem;
+        padding: 0;
+        margin: 0;
+        color: $primary-font-color;
+      }
+    }
+  }
+}
+
+.tabletProductItem {
+  margin: 0 10%;
+
+  .products-block {
+    justify-items: baseline;
+
+    .product-item {
+      width: 70%;
+    }
+
+    .price-button-wrapper {
+      width: 70%;
+
+     
+    }
+
+    .details {
+      width: 70%;
+    }
+  }
+}
+
+
+.pcProductItem {
+  margin: 0 10%;
+
+  .products-block {
+    justify-items: baseline;
+
+    .product-item {
+      width: 70%;
+    }
+
+    .price-button-wrapper {
+      width: 70%;
+    }
+
+    .details {
+      width: 70%;
+    }
+  }
+}

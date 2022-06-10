@@ -1,0 +1,78 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.the-youtube-block {
+  display: grid;
+  justify-items: center;
+  background-color: $secondary-background-color;
+  padding: 10px 0;
+
+  .youtube-video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    width: 90vw;
+  }
+
+  .frame {
+    overflow: hidden;
+    position: relative;
+    width: 75%;
+  }
+
+  .frame::after {
+    padding-top: 56.25%;
+    display: block;
+    content: "";
+  }
+
+  .frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tabletYoutube{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .youtube-video-container {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+      width: 50vw;
+    }
+
+    .the-youtube-block{
+      .frame{
+        width: 100%;
+      }
+    }
+  }
+
+  .pcYoutube{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .youtube-video-container {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+      width: 50vw;
+    }
+
+    .the-youtube-block{
+      .frame{
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+
+
+
+

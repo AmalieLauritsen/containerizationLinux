@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "home page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "musicvideo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.musicvideo"
+    },
+    "shop": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.shop"
+    }
+  }
+}

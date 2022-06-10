@@ -1,0 +1,64 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.base-button {
+  width: 100px;
+  padding: 8px;
+  border-radius: 3px;
+  background-color: $secondary-background-color;
+  color: $primary-font-color;
+  text-decoration: none;
+}
+
+.base-button-yellow {
+  width: 100px;
+  padding: 8px;
+  border-radius: 3px;
+  margin: 4px 0;
+  background-color: $tertiary-background-color;
+  color: $text-font-color;
+  text-decoration: none;
+}
+
+.button-left-wrapper {
+  display: grid;
+  width: 100%;
+  justify-items: end;
+  margin-right: 20%;
+}
+
+.small-button{
+  width: fit-content;
+  padding: 5px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+.base-button-danger{
+  text-decoration: none;
+  background-color: $danger;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 4px 0;
+  margin-left: 10px;
+
+}
+
+.btn {
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+}
+
+button.btn.btn-primary.btn-block {
+  background-color: $tertiary-background-color;
+  border-color: $tertiary-background-color;
+  color: $secondary-background-color;
+}
+
+button.btn.btn-primary.btn-checkout {
+  background-color: $footor-background-color;
+  border-color: $footor-background-color;
+  color: $secondary-background-color;
+}
+

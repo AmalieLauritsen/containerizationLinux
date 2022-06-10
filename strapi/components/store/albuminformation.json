@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_store_albuminformations",
+  "info": {
+    "name": "albuminformation",
+    "icon": "music"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "tracklist": {
+      "type": "component",
+      "repeatable": true,
+      "component": "store.tracklist"
+    },
+    "description": {
+      "type": "text"
+    },
+    "writtenby": {
+      "type": "text"
+    },
+    "recordlabel": {
+      "type": "string"
+    },
+    "albumcover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

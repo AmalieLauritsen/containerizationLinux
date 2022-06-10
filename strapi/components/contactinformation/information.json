@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contactinformation_information",
+  "info": {
+    "name": "information",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contactinformation.contact"
+    },
+    "adress": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contactinformation.address"
+    },
+    "contactperson": {
+      "type": "string"
+    }
+  }
+}

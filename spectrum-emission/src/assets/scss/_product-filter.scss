@@ -1,0 +1,143 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.shop-filters {
+  background-color: $tertiary-background-color;
+  width: 70%;
+  position: fixed;
+  top: 120px;
+  left: 0;
+  z-index: 80;
+  border-radius: 0 5px 5px 0;
+  font-size: 0.9rem;
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.318);
+
+  .base-h4 {
+    padding: 2% 0;
+    margin-top: 5px;
+  }
+  .icon-wrapper {
+    font-size: 1rem;
+    position: relative;
+    left: 90%;
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+    width: 20px;
+  }
+
+  .base-search-bar {
+    display: grid;
+    grid-template-columns: 55% 30%;
+
+    .base-button {
+      border-radius: 0 5px 5px 0;
+    }
+
+    #search-input {
+      border: none;
+      background: $primary-font-color;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      padding: 8px 2px;
+
+      margin-left: 20px;
+    }
+    #no-search-results {
+      margin-left: 20px;
+      width: 100%;
+    }
+  }
+  .categories-filter {
+    p {
+      margin-bottom: 5px;
+    }
+
+    margin-left: 20px;
+    #category-all {
+      cursor: pointer;
+    }
+    .categories-names {
+      cursor: pointer;
+      .link {
+        text-decoration: none;
+        display: inline-block;
+        color: $text-font-color;
+      }
+    }
+  }
+  .album-filter {
+    margin-left: 20px;
+    .albums {
+      margin-left: 5px;
+      margin-bottom: 10px;
+      .link {
+        text-decoration: none;
+        color: $text-font-color;
+      }
+    }
+  }
+
+  .price-slider {
+    height: 100px;
+    margin: 0px 0 20px 20px;
+    .slider {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 90%;
+    }
+  }
+}
+
+.tabletFilter {
+  .shop-filters {
+    width: 40%;
+
+    .icon-wrapper {
+      left: 95%;
+    }
+
+    .base-search-bar {
+      grid-template-columns: 60% 40%;
+    }
+    .categories-filter {
+      .categories-names {
+        cursor: pointer;
+        .link {
+          text-decoration: none;
+          display: inline-block;
+          color: $text-font-color;
+        }
+      }
+    }
+
+    .price-slider {
+      height: 140px;
+      margin: 0px 0 20px 20px;
+      align-items: center;
+      display: grid;
+      .slider {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 90%;
+      }
+    }
+  }
+}
+
+.pcFilter {
+  .shop-filters {
+    width: 20%;
+
+    .icon-wrapper {
+      left: 90%;
+    }
+
+    .base-search-bar {
+      grid-template-columns: 50% 30%;
+    }
+  }
+}

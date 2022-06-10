@@ -1,0 +1,64 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.concerts-block {
+  align-items: center;
+  background: $tertiary-background-color;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  // min-height: 100vh;
+
+  .concerts-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 85%;
+    font-size: 11px;
+    
+  }
+  .upcoming-concert {
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: $primary-font-color;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 3px;
+    // width: 75%;
+    .concert-date-venue {
+      margin-right: auto;
+      .concert-date{
+        font-weight: bold;
+      }
+    }
+    .concert-citycountry {
+      text-align: center;
+    }
+    .concert-ticket {
+      background: $primary-font-color;
+      margin-left: auto;
+    }
+  }
+
+  .upcoming-concert:hover,
+  .upcoming-concert:hover > .concert-ticket {
+    background: #ffd152;
+  }
+
+  .concert-ticket {
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: red;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  // &:hover {
+  //   background: #ffd152;
+  // }
+}

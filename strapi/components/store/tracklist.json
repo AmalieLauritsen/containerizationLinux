@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_store_tracklists",
+  "info": {
+    "name": "tracklist",
+    "icon": "tractor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "artist": {
+      "type": "string"
+    },
+    "writtenby": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}

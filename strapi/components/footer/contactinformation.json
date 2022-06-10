@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_footer_contactinformations",
+  "info": {
+    "name": "contactinformation",
+    "icon": "blender-phone"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.contact"
+    },
+    "adress": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.adress"
+    },
+    "contactperson": {
+      "type": "string"
+    }
+  }
+}

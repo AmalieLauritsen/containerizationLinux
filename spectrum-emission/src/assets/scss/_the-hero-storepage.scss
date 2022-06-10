@@ -1,0 +1,128 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.the-hero-storepage {
+  align-items: center;
+  display: grid;
+  margin-top:100px ;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  .hero-store-picture {
+    width: 100%;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+  }
+  .smaller-hero {
+    position: relative;
+  }
+
+ 
+
+  .text-wrapper{
+    display: grid;
+    top: 100px;
+    width: 100%;
+    align-items: baseline;
+    justify-items: baseline;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+    
+
+    .base-h1 {
+      font-size: 3vh;
+   
+      
+      padding: 0;
+      margin: 0;
+      margin-left: 40px;
+
+    }
+    
+      p{
+        margin-bottom: 0;
+        margin-left: 40px;
+        font-style: italic;
+        color: $primary-font-color;
+      }
+  }
+}
+
+.tabletHeader{
+
+  .the-hero-storepage {
+
+  
+   
+  
+    .text-wrapper{
+    align-items: flex-start;
+    padding: 0 40px;
+     
+      
+  
+      .base-h1 {
+        font-size: 3em;
+     
+        
+        padding: 0;
+        margin: 0;
+        margin-left: 40px;
+  
+      }
+      
+        p{
+          padding: auto;
+          font-size: 2em;
+          margin-bottom: 0;
+          margin-left: 40px;
+          font-style: italic;
+          color: $primary-font-color;
+        }
+    }
+  }
+  
+
+}
+
+
+.pcHeader{
+
+  .the-hero-storepage {
+    max-height: 500px;
+  
+   
+  
+    .text-wrapper{
+
+    padding: 0 40px;
+    max-height: 500px;
+     
+      
+  
+      .base-h1 {
+        font-size: 4em;
+     
+        
+        padding: 0;
+        margin: 0;
+        margin-left: 40px;
+  
+      }
+      
+        p{
+          padding: auto;
+          font-size: 2em;
+          margin-bottom: 0;
+          margin-left: 40px;
+          font-style: italic;
+          color: $primary-font-color;
+        }
+    }
+  }
+  
+
+}

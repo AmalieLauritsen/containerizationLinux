@@ -1,0 +1,23 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+h2:before {
+  content: attr(data-text);
+  color: $secondary-font-color;
+}
+
+.base-h2 {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    color: $primary-font-color;
+    padding: 2%;
+}
+
+.dark {
+  color: $text-font-color;
+}
+.color{
+  color: $secondary-font-color;
+  // margin-top: 100px;
+}

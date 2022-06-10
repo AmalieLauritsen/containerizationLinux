@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_musicvideos",
+  "info": {
+    "name": "musicvideo",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "releaseDate": {
+      "type": "datetime"
+    },
+    "videoLink": {
+      "type": "richtext"
+    }
+  }
+}

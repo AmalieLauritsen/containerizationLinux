@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footer_somenavbars",
+  "info": {
+    "name": "somenavbar",
+    "icon": "person-booth"
+  },
+  "options": {},
+  "attributes": {
+    "someitem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.someitem"
+    }
+  }
+}

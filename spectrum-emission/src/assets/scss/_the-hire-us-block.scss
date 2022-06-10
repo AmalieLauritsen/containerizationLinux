@@ -1,0 +1,40 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.contact-wrapper{
+    background-color: $primary-background-color;
+    padding: 20px 0;
+}
+.contact-form{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.tabletForm{
+   input{
+       padding: 13px;
+   } 
+
+   textarea{
+       height: 300px;
+   }
+}
+
+.pcForm{
+    margin: 0 20%;
+    align-items: center;
+    justify-items: center;
+   input{
+       padding: 13px;
+   } 
+
+   textarea{
+       height: 300px;
+   }
+
+   .base-button-yellow{
+       width: fit-content;
+   }
+}

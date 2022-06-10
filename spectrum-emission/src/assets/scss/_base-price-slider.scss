@@ -1,0 +1,28 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.price-slider {
+  .slider {
+    padding: 0 2%;
+    .price-values {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  #max-value {
+    background-color: $darker-primary-background-color;
+    border-radius: 25px;
+    padding: 0;
+    width: 100%;
+    -webkit-appearance: none;
+  }
+  #max-value::-webkit-slider-thumb {
+    appearance: none;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    background: $tertiary-font-color;
+    cursor: pointer;
+  }
+  //   #show-max-value {}
+}

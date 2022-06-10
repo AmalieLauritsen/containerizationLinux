@@ -1,0 +1,18 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+h6:before {
+  content: attr(data-text);
+  color: $secondary-font-color;
+}
+
+.base-h6 {
+    font-size: 1em;
+    font-weight: bold;
+    color: $text-font-color;
+    padding: 2%;
+}
+
+.dark {
+  color: $text-font-color;
+}

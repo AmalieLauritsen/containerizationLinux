@@ -1,0 +1,26 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.base-breadcrumbs {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left: 10%;
+  padding: 15px 0;
+ 
+  a{
+    color: $secondary-font-color;
+  }
+  .breadcrumb-item {
+    margin: 0;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    color: inherit;
+    content: var(--bs-breadcrumb-divider, ">");
+  }
+  .breadcrumb-link {
+    background: inherit;
+    color: inherit;
+  }
+}

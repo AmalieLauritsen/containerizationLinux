@@ -1,0 +1,28 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+input, textarea{
+    background-color: $primary-font-color;
+    padding: 8px;
+    border-radius: 3px;
+   
+}
+.small-input{
+   
+    width: 80%;
+    margin: 4px;
+}
+
+.error-wrapper{
+   
+   
+   .error {
+    
+    p{
+        color: $danger;
+        
+    }
+    
+}
+    
+}

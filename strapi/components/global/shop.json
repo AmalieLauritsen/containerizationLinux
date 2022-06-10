@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_global_shops",
+  "info": {
+    "name": "shop",
+    "icon": "shopping-bag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titletext": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.titletext"
+    },
+    "gotostoreButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.button"
+    },
+    "product": {
+      "model": "product"
+    }
+  }
+}

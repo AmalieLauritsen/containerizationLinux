@@ -1,0 +1,19 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+h3:before {
+  content: attr(data-text);
+  color: $secondary-font-color;
+}
+
+.base-h3 {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    color: $text-font-color;
+    padding: 2%;
+}
+
+.dark {
+  color: $text-font-color;
+}

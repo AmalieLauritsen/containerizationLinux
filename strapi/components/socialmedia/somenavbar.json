@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_socailmedia_somenavbars",
+  "info": {
+    "name": "somenavbar",
+    "icon": "solar-panel"
+  },
+  "options": {},
+  "attributes": {
+    "someitem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "socialmedia.someitem"
+    }
+  }
+}

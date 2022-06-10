@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "albums",
+  "info": {
+    "name": "album",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "products": {
+      "collection": "product",
+      "via": "albums",
+      "dominant": true
+    },
+    "categories": {
+      "collection": "category",
+      "via": "album"
+    },
+    "albuminformation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "store.albuminformation"
+    }
+  }
+}

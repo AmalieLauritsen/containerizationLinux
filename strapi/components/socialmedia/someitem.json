@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_socailmedia_someitems",
+  "info": {
+    "name": "someitem",
+    "icon": "clinic-medical"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "richtext"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "socialmedia": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

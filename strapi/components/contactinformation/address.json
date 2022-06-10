@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_concert_addresses",
+  "info": {
+    "name": "address",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "string"
+    }
+  }
+}

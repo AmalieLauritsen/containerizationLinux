@@ -1,0 +1,17 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.base-card{
+
+    border-radius: 3px;
+    
+}
+
+.wide-card{
+    width: 85vw;
+
+}
+
+.yellow{
+    background-color: $tertiary-background-color;
+}

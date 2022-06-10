@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_spectrumemissions",
+  "info": {
+    "name": "spectrumemission",
+    "icon": "band-aid"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "phonenumber": {
+      "type": "biginteger"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
