@@ -39,6 +39,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           push: true
           # tags: ${{ secrets.DOCKER_HUB_USERNAME }}/containerizationlinux:latest
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/containerizationlinux:githubWorkflow
+          # tags: ${{ secrets.DOCKER_HUB_USERNAME }}/containerizationlinux:githubWorkflow
+          tags: ghcr.io/amal1698/containerizationlinux:githubWorkflow
           cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/containerizationlinux:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/containerizationlinux:buildcache,mode=max
